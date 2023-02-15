@@ -134,6 +134,7 @@ main section:nth-of-type(1) h2 {
 main section:nth-of-type(1) nav {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
     padding-bottom: 10vh;
     margin: 0 2%;
 }
@@ -185,7 +186,8 @@ main section:nth-of-type(2) article {
 main section:nth-of-type(2) article .room_card {
     width: 35%;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    justify-content: space-between;
     margin: 1.5vh 0;
 }
 
@@ -330,82 +332,3 @@ footer form input[type=submit]:hover {
     color:#957554;
 }
 
-/* 
-    loogo
-    width 150
-    height 101
-    position absolute
-
-    header p unter logo 
-    fsz 24px 
-    line height 28px 
-    width 653px
-
-    Welcome 
-    fsz 80px 
-    line height 90px
-    width: 966px
-
-    good people thinking feeling
-    fsz: 24px
-    width: 474px
-
-    explore button 
-    width: 370
-    height 76
-    radius 10px
-
-    facilities / rooms& rates
-    fsz 45px
-    line height 51px 
-
-    piktogrammme
-    width 54px 
-    height 38px
-    fsz 24px
-
-    bilder
-    width 630px
-    height 500px
-    stand twin room ...
-    fsz 40px
-    check rates
-    fsz 24px
-
-    button
-    width: 244px
-    height 76px
-
-    get room already 
-    fsz 45px
-
-    book now button
-    fsz 24px
-    width: 411px
-    height: 76px
-
-footer
-
-logo 
-width 154
-height 126 
-position absolute
-
-adress
-fsz 24px 1. zeile bold 
-width 263 px 
-height 83px
-
-out hotels COnferencing ....
-fsz 24px
-width: 194
-height 249
-
-subsribe for offer 
-fsz 30px
-form field und button 
-width 371px
-height 75
-subscribe nnow
-fsz 24px
-*/
