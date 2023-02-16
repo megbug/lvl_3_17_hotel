@@ -30,6 +30,18 @@ html {
     font-family: 'ubuntu_reg';
 }
 
+.button {
+    font-size: 2.4rem;
+    color: #fff;
+    background-color: #DFAA5B;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.button:hover {
+    color: #957554;
+}
+
 /* ====================================================== */
 
             /* ======Header====== */
@@ -67,17 +79,6 @@ header section:nth-of-type(1) nav a img:nth-of-type(1) {
 
 /* ====================================================== */
 
-.button {
-    font-size: 2.4rem;
-    color: #fff;
-    background-color: #DFAA5B;
-    text-decoration: none;
-}
-
-.button:hover {
-    color: #957554;
-}
-
 header section:nth-of-type(2) {
     background: url(../img/hero_image.png) center / cover no-repeat;
     width: 100%;
@@ -102,7 +103,6 @@ header section:nth-of-type(2) p {
 
 header section:nth-of-type(2) .button {
     padding: 1rem 7rem;
-    border-radius: 8px;
     margin: 0 2%;
 }
 
@@ -140,7 +140,7 @@ main section:nth-of-type(1) nav {
 }
 
 main section:nth-of-type(1) nav a img {
-    width: 5rem;
+    width: 4.5rem;
     height: 4rem;
 }
 
@@ -160,11 +160,11 @@ main section:nth-of-type(1) nav a p:hover {
 /* ====================================================== */
 
 main section:nth-of-type(2) {
+    text-align: center;
     margin: 0 2%;
 }
 
 main section:nth-of-type(2) h2 {
-    text-align: center;
     padding-bottom: 3vh;
 }
 
@@ -184,58 +184,45 @@ main section:nth-of-type(2) article {
 }
 
 main section:nth-of-type(2) article .room_card {
+    background: center / cover no-repeat;
+    border-radius: 8px;
     width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    text-align: center;
     margin: 1.5vh 0;
 }
 
 main section:nth-of-type(2) article .room_card h3 {
-    text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #fff;
     margin-top: 25vh;
 }
 
-main section:nth-of-type(2) article .room_card .button_rate {
-    font-family: 'ubuntu_light';
-    font-size: 1.8rem;
-    color: #fff;
-    background-color: #DFAA5B;
-    text-decoration: none;
-    padding: 2rem 3.5rem;
-    border-radius: 8px;
-    margin: 3vh auto;
-}
-
-main section:nth-of-type(2) article .room_card .button_rate:hover {
-    color: #957554;
+main section:nth-of-type(2) article .room_card .button {
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 15px 0 40px 0;
 }
 
 /* ====================================================== */
 
-                /* Room Card Images */
+                /* Room Card Background-Images */
 
 /* ====================================================== */
 
 main section:nth-of-type(2) article .category_1 {
-    background: url(../img/standard_twin_room.png) center / cover no-repeat;
-    border-radius: 8px;
+    background-image: url(../img/standard_twin_room.png); 
 }
 
 main section:nth-of-type(2) article .category_2 {
-    background: url(../img/standard_room.png) center / cover no-repeat;
-    border-radius: 8px;
+    background-image: url(../img/standard_room.png);
 }
 
 main section:nth-of-type(2) article .category_3 {
-    background: url(../img/standard_view_room.png) center / cover no-repeat;
-    border-radius: 8px;
+    background-image: url(../img/standard_view_room.png);
 }
+
 main section:nth-of-type(2) article .category_4 {
-    background: url(../img/deluxe_room.png) center / cover no-repeat;
-    border-radius: 8px;
+    background-image: url(../img/deluxe_room.png);
 }
 
 /* ====================================================== */
@@ -245,24 +232,19 @@ main section:nth-of-type(2) article .category_4 {
 /* ====================================================== */
 
 main section:nth-of-type(3) {
-    padding-bottom: 5vh;
-    margin: 3vh 39%;
-}
-
-main section:nth-of-type(3) article {
     text-align: center;
+    padding-bottom: 5vh;
+    margin: 3vh 2%;
 }
 
 main section:nth-of-type(3) article h2 {
     margin-top: 3vh;
     margin-bottom: 3vh;
-    width: 100%;
+    
 }
 
-main section:nth-of-type(3) article a {
-    width: 100%;
+main section:nth-of-type(3) article .button {
     padding: 1rem 15.5rem;
-    border-radius: 8px;
 }
 
 /* ====================================================== */
@@ -275,21 +257,22 @@ footer {
     background-color: #111111;
     display: flex;
     justify-content: space-between;
-    padding:  2%;
+    padding: 2%;
     color: #fff;
 }
 
 footer article img {
-    padding: 10px 30px 40px 30px; 
+    padding: 0 30px; 
 }
 
 footer article p {
-    margin: 0 30px; 
+    margin: 0 42px; 
     font-size: 1.6rem;
 }
 
 footer article p:nth-of-type(1) {
     font-family: 'ubuntu_bold';
+    margin-top: 1vh;
 }
 
 footer article p:nth-of-type(3) {
