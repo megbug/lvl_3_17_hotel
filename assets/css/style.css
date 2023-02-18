@@ -187,6 +187,7 @@ main section:nth-of-type(2) article .room_card {
     background: center / cover no-repeat;
     border-radius: 8px;
     width: 35%;
+    min-width: 450px;
     text-align: center;
     margin: 1.5vh 0;
 }
